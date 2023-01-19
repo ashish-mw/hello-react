@@ -16,8 +16,10 @@ function App() {
 
   useEffect(() => {
     const moviesFromStorage = localStorage.getItem("allMovies");
-    const json = JSON.parse(moviesFromStorage);
-    setMovies(json);
+    if (moviesFromStorage) {
+      const json = JSON.parse(moviesFromStorage);
+      setMovies(json);
+    }
   }, []);
 
   const handleDelete = (movieId) => {
