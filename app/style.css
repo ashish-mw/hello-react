@@ -1,0 +1,10 @@
+h1 {
+  color: red;
+}
+
+.movie-card {
+  border: 1px solid;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
