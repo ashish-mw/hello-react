@@ -4,20 +4,27 @@ The project has a newer node dependency
 
 ```
 nvm use
+cd app
+npm i
+npm run dev
 ```
 
-To start the dev server
+to create a vite project
 
 ```
-npx serve app
+npm create vite@latest
 ```
 
+## react tips
 
 - Install the [react-dev-tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 - Close the browser dev tools and reopen it to see the "Components" and
   "Profiler" tabs
 - react cdn: https://reactjs.org/docs/cdn-links.html
 - babel cdn: https://unpkg.com/@babel/standalone/babel.min.js
+
+
+
 
 ## tutorials
 
